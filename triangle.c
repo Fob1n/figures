@@ -2,8 +2,6 @@
 
 void drawTriangle(void){
 	int i, j, k;
-//	gotoxy(10, 70);
-//	setColor(BLUE);
 	for(i=1;i<6;i++){
 		for(k=6;k>i;k--){
 			printf(" ");

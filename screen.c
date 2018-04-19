@@ -14,7 +14,7 @@ void gotoxy(int row, int col){
 }
 
 
-void setColor(int color){
+void setColor(char color){
     printf("%c[1;%dm", ESC, color);
     fflush(stdout);
 }
